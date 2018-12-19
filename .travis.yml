@@ -12,9 +12,8 @@ matrix:
     - env: BUILD_OPTIONS=""
       osx_image: xcode10
     - env: BUILD_OPTIONS=""
-    - env: BUILD_OPTIONS="--build-from-source"
-    - env: BUILD_OPTIONS="--with-no-titlebar"
-    - env: BUILD_OPTIONS="--devel"
+    # - env: BUILD_OPTIONS="--build-from-source"
+    # - env: BUILD_OPTIONS="--devel"
   fast_finish: true
 
 before_install:
