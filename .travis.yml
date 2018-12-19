@@ -24,6 +24,6 @@ script:
   - brew test Formula/kompose.rb
   - brew remove kompose
   - brew tap yuikns/kompose
-  - brew install kompose
+  # - brew install kompose
   - kompose version
-  - ls -al /usr/local/bin
+  - ls -al /usr/local/bin/kompose

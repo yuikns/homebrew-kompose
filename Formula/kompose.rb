@@ -11,8 +11,8 @@ class Kompose < Formula
 
 
   def install
-    mkdir_p buildpath/"bin"
-    ln_s buildpath/"kompose-darwin-amd64", buildpath/"bin/kompose"
+    # mkdir_p buildpath/"bin"
+    ln_s buildpath/"kompose-darwin-amd64", buildpath/"kompose"
     bin.install "kompose"
 
     output = Utils.popen_read("#{bin}/kompose completion bash")
