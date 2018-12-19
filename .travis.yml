@@ -22,8 +22,8 @@ before_install:
 script:
   - travis_wait brew install Formula/kompose.rb $BUILD_OPTIONS
   - brew test Formula/kompose.rb
-  - brew remove kompose
-  - brew tap yuikns/kompose
+  # - brew remove kompose
+  # - brew tap yuikns/kompose
   # - brew install kompose
   - kompose version
   - ls -al /usr/local/bin/kompose
