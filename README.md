@@ -5,4 +5,6 @@
 
 The latest kompose
 
+[badge-travis]: https://travis-ci.org/yuikns/homebrew-kompose.svg?branch=master
 [link-travis]: https://travis-ci.org/yuikns/homebrew-kompose
+[badge-license]:   https://img.shields.io/badge/license-MIT-007EC7.svg
