@@ -6,9 +6,9 @@ class Kompose < Formula
   homepage "https://github.com/kubernetes/kompose"
 
 
-  url "https://github.com/kubernetes/kompose/archive/v1.18.0.zip"
+  url "https://github.com/kubernetes/kompose/archive/v1.26.1.zip"
   # mirror "https://xxx/v1.18.0/v1.18.0.zip"
-  sha256 "8e45087819536e88c6889bd0885aab793ede60fb58852b033802489e51a8603e"
+  sha256 "6c19865fa7abe6a346afd9e258956877c6d60cd881f3c96f93654095c265965b"
 
   depends_on "go" => :build
 
